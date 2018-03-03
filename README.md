@@ -54,6 +54,7 @@ basic branch geometry
 * A flavorful twist. Don't just make a basic variation on the example broccoli
 grammar from the slides! Create a plant that is unique to you!
 
+
 Feel free to use the resources linked in the slides for inspiration!
 
 ## Interactivity
@@ -92,6 +93,8 @@ points you'll earn.
 ## READ-ME
 PennKey: nmaga
 Live demo link: https://nmagarino.github.io/homework-4-l-systems-nmagarino/
+
+[![](lsystemcap.png)]
 
 For my L-system I used a series of aligned primitive cube shapes to form a tree.  I modeled my initial grammar expansion rules from a fractal plant example I found on wikipedia (https://en.wikipedia.org/wiki/L-system), and edited it from there.  In terms of implementation, I started off my grammar expansion L system logic from the base code provided in the previous CIS700 Procedural Graphics course (https://github.com/CIS700-Procedural-Graphics/Project3-LSystems), and followed along some student implementations.  More specifically, the grammar rules are as such:
 * "F" -> FF
